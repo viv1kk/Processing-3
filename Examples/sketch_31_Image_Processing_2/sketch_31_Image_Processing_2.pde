@@ -1,3 +1,5 @@
+// using rgb values to display an image
+
 PImage frog;
 
 void setup()

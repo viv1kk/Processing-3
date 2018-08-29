@@ -1,3 +1,5 @@
+// converting the image to black and white using brightness
+
 PImage frog;
 
 void setup()

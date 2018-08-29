@@ -1,3 +1,5 @@
+// Bubble Action by Events
+
 PImage[] img = new PImage[5];
 Bubble[] b = new Bubble[10];
 int a;
