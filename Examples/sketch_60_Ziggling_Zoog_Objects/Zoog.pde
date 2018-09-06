@@ -57,7 +57,9 @@ class Zoog
 
   void ziggle()
   {
-    float map = map(mouseX, 0, width, 0.0, 5.0);
-    x = x+(int)random(-2, 2)*(int)map;
+    float mapX = map(mouseX, 0, width, 0.0, 5.0);
+    float mapY = map(mouseY, 0, height, 0.0, 5.0);
+    x = x+(int)random(-2, 2)*(int)mapX;
+    y = y+(int)random(-2, 2)*(int)mapY;
   }
 }
